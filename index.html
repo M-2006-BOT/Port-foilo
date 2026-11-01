@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The portfolio of Mugunthan M — independent software developer."
+    />
+    <meta name="theme-color" content="#f5f3ee" />
+    <title>Mugunthan M — Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#home" aria-label="Mugunthan M, home">
+          <span class="wordmark-icon" aria-hidden="true">y.</span>
+          <span>MUGUNTHAN M<span class="wordmark-period">.</span></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+          <a href="#work">Work <span>01</span></a>
+          <a href="#about">About <span>02</span></a>
+          <a href="#contact">Contact <span>03</span></a>
+          <a class="availability" href="#contact">
+            <span class="status-dot" aria-hidden="true"></span>
+            Available for work
+          </a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> INDEPENDENT SOFTWARE DEVELOPER</p>
+            <h1 id="hero-title">
+              Making the<br />
+              digital feel<br />
+              <span class="hero-last-line">a little more <em>human.</em></span>
+            </h1>
+            <div class="hero-bottom">
+              <p class="hero-intro">
+                I’m <strong>Mugunthan M</strong> — a software developer building thoughtful,
+                user-friendly web experiences for e-commerce, events, and more.
+              </p>
+              <a class="round-link" href="#work" aria-label="Explore selected work">
+                <span aria-hidden="true">↓</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="portrait-card" aria-label="Portrait of Mugunthan M">
+            <div class="portrait-topline">
+              <span>THE PERSON BEHIND THE PIXELS</span>
+              <span class="portrait-star" aria-hidden="true">✳</span>
+            </div>
+            <div class="portrait-image-stage">
+              <span class="portrait-name-backdrop" aria-hidden="true">Mugunthan M</span>
+              <img class="portrait-photo" src="photo/bwimage.jpeg" alt="Black-and-white portrait of Mugunthan M" />
+            </div>
+            <div class="portrait-foot">
+              <span>SOFTWARE DEVELOPER <span aria-hidden="true">↗</span></span>
+              <span>MUGUNTHAN M</span>
+            </div>
+          </div>
+
+          <div class="hero-index" aria-hidden="true">
+            <span>SCROLL TO EXPLORE</span>
+            <span class="index-rule"></span>
+            <span>01 / 04</span>
+          </div>
+        </section>
+
+        <section class="work-section section-wrap" id="work" aria-labelledby="work-title">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-line"></span> A FEW THINGS I’VE MADE</p>
+              <h2 id="work-title">Selected <em>work</em><span class="heading-dot">.</span></h2>
+            </div>
+            <p class="section-note">Web experiences for shopping,<br />events, and book lovers.</p>
+          </div>
+
+          <div class="project-grid">
+            <a class="project-card project-large reveal" href="#contact" aria-label="Ask about Brandname, an e-commerce marketplace">
+              <div class="project-art">
+                <img
+                  class="project-preview"
+                  src="photo/pro1.png"
+                  alt="E-commerce storefront with product categories, electronics, daily deals, and supplier recommendations"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="art-count" aria-hidden="true">01</span>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Brandname — E-commerce Marketplace</h3>
+                  <p>E-commerce · Storefront experience</p>
+                  <p class="project-description">
+                    A marketplace storefront that brings product categories, trending electronics,
+                    daily deals, and supplier recommendations together for easy browsing.
+                  </p>
+                </div>
+                <span class="project-year">01 <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
+
+            <a class="project-card project-small reveal" href="#contact" aria-label="Ask about Eventz, a digital conference website">
+              <div class="project-art">
+                <img
+                  class="project-preview"
+                  src="photo/pro2.jpg"
+                  alt="Eventz digital conference website with a speaker-led hero, schedule navigation, and ticket button"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="art-count" aria-hidden="true">02</span>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Eventz — Design Conference</h3>
+                  <p>Event website · Conference experience</p>
+                  <p class="project-description">
+                    A conference landing page with a bold event introduction, schedule and speaker
+                    links, a countdown, and a clear ticket call to action.
+                  </p>
+                </div>
+                <span class="project-year">02 <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
+
+            <a class="project-card project-small reveal" href="#contact" aria-label="Ask about the Library Management App">
+              <div class="project-art">
+                <img
+                  class="project-preview"
+                  src="photo/pro3.png"
+                  alt="Library management app concept featuring a book catalog, categories, and account screens"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="art-count" aria-hidden="true">03</span>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Library Management App</h3>
+                  <p>Library management · Web application</p>
+                  <p class="project-description">
+                    A library app concept bringing book discovery, category browsing, and account
+                    screens together in a clear, reader-friendly experience.
+                  </p>
+                </div>
+                <span class="project-year">03 <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <section class="about-section" id="about" aria-labelledby="about-title">
+          <div class="about-inner section-wrap">
+            <div class="about-label reveal">
+              <p class="eyebrow"><span class="eyebrow-line"></span> A LITTLE ABOUT ME</p>
+              <img class="about-photo" src="photo/yermugu.jpeg" alt="Portrait of Mugunthan M" />
+            </div>
+            <div class="about-copy reveal">
+              <h2 id="about-title">
+                Curious by nature.<br />
+                <em>Intentional</em> by design.
+              </h2>
+              <div class="about-details">
+                <p>
+                  I’m a software developer who enjoys turning ideas into practical, easy-to-use
+                  web experiences. My projects include an e-commerce marketplace, an event website,
+                  and a library management app. I focus on clear layouts, intuitive navigation,
+                  and details that make every interaction feel smooth.
+                </p>
+                <div class="about-facts">
+                  <div><span>01</span> Software development</div>
+                  <div><span>02</span> Web design & development</div>
+                  <div><span>03</span> Cloud computing</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section section-wrap" id="contact" aria-labelledby="contact-title">
+          <div class="contact-top reveal">
+            <p class="eyebrow"><span class="eyebrow-line"></span> HAVE A GOOD ONE IN MIND?</p>
+            <span class="contact-note">THE NEXT GOOD THING<br />STARTS WITH A HELLO.</span>
+          </div>
+          <div class="contact-main reveal">
+            <h2 id="contact-title">Let’s make<br />something <em>matter.</em></h2>
+            <a class="contact-link" href="https://www.linkedin.com/in/mugunthan-m-a27568336/">
+              <span>View my LinkedIn profile</span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="contact-bottom">
+            <span>GOOD WORK. GOOD PEOPLE. GOOD ENERGY.</span>
+            <a href="#home">BACK TO TOP ↑</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>© <span id="current-year"></span> MUGUNTHAN M</span>
+        <span>DESIGNED WITH INTENTION <span class="footer-heart" aria-hidden="true">♥</span></span>
+        <a href="https://www.linkedin.com/in/mugunthan-m-a27568336/">SAY HELLO ↗</a>
+      </footer>
+    </div>
+  </body>
+</html>
